@@ -8,7 +8,7 @@
 
 ### 🔐 [AES-Encryption-Demo](./AES-Encryption-Demo/README.md)
 
-- 模块化实现对称加密（AES）、哈希（SHA、MD5）和非对称加密（RSA）
+- 模块化实现对称加密（AES、DES、3DES）、哈希（SHA、MD5）和非对称加密（RSA）
 - 包括三个核心子模块：`symmetric`、`hash` 和 `asymmetric`
 - 适合入门者理解加密流程的基本组成
 
@@ -34,7 +34,7 @@
 
 ## ⚙️ 环境依赖
 
-- Python 3.6+
+- Python 3.10.1
 - PyCryptodome 库：加密算法实现
 
 ```bash
