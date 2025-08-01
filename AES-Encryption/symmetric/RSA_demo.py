@@ -11,6 +11,7 @@ def generate_keys():
 
 # 加密函数
 def rsa_encrypt(plaintext, public_key_bytes):
+    #先用RSA.import_key把传入的公钥字节转成密钥对象
     public_key = RSA.import_key(public_key_bytes)
     cipher = PKCS1_OAEP.new(public_key)
     ciphertext = cipher.encrypt(plaintext.encode('utf-8'))
